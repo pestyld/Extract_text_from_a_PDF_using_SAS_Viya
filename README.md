@@ -5,4 +5,4 @@ Learn how to extract text from a series of PDFs files and create a structured ta
 
 ## Requirements
 - You will need access to SAS Viya.
-- You wll need to setup your environment with the PDF files. Follow instructions in the blog.
+- You will need to setup your environment with the PDF files. Follow instructions in the blog.
