@@ -17,7 +17,8 @@
 /******************************************/
 /* FIND PATH FOR THE PROJECT FOLDER       */
 /******************************************/
-/* Dynamically finds the current directory path based on where the program is saved and stores it in the path macro variable */
+/* Dynamically finds the current directory path based on where the program is saved and stores it in 
+   the path macro variable. Valid in SAS Studio.  */
 %let fileName =  /%scan(&_sasprogramfile,-1,'/');  
 %let path = %sysfunc(tranwrd(&_sasprogramfile, &fileName,));
 
@@ -60,7 +61,7 @@ run;
 /* The CASUTIL procedure uses the loadTable         */
 /* action through the CAS engine behind the scenes. */
 /* Instead of using CASUTIL you can call the action */
-/* directly.                                        */
+/* directly. See below.                            */
 /****************************************************/
 
 /* proc cas; */
