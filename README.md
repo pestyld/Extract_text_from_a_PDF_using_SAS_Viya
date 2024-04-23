@@ -9,9 +9,9 @@ In this hands-on workshop, you'll learn how to utilize the capabilities of SAS V
 
 ## Introduction
 You will learn how to
-•	Extract text from a series of PDF files using SAS Viya.
-•	Create a user defined function.
-•	Use a the user defined function to clean the unstructured text and create structured table for analysis.
+- Extract text from a series of PDF files using SAS Viya.
+- Create a user defined function.
+- Use a the user defined function to clean the unstructured text and create structured table for analysis.
 
 
 ## Requirements
